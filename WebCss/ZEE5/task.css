@@ -1,0 +1,102 @@
+#mix{
+    background-color: black;
+       display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+} 
+.fix{
+    
+    color: antiquewhite;
+}
+  #rex{
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid rgb(126, 106, 106);
+      align-items: center;
+}  
+
+#two{
+    display: flex;
+      justify-content: space-evenly;
+      border: 1px solid rgb(126, 106, 106);
+      align-items: center;
+}
+
+.one{
+    
+    color: antiquewhite;
+    border-radius: 10px;
+    transitiion background-color:;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.one:hover{
+    background-color: brown;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+
+
+ #body{
+    background-color: rgb(15, 12, 12);
+}  
+
+#foo{
+    display: flex;
+}
+#oyy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.chuu{
+    height: 300px;
+    width: 205px;
+    border-radius: 15px;
+    transitiion background-color: ;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function:ease-in-out;
+}
+ .chuu:hover{
+    
+    height: 600px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+#dum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.poo{
+    color: aliceblue;
+}
+#gum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ra{
+    color: aliceblue;
+}
+
+.chu{
+    border-radius: 15px;
+}
+#chi{
+    border-radius: 15px;
+}

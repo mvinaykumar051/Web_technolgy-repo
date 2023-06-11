@@ -1,0 +1,129 @@
+#mix{
+   background-color: black;
+      display: flex;
+       justify-content:space-between;
+       align-items: center;
+       
+} 
+.fix{
+   
+   color: antiquewhite;
+   transition: 1s;
+}
+.fix:hover{
+   transform: scale(1.2);
+   background-color: rgb(9, 10, 10);
+   border-bottom: 1px solid white;
+}
+ #rex{
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid rgb(126, 106, 106);
+     align-items: center;
+}  
+
+#two{
+   display: flex;
+     justify-content: space-evenly;
+     border: 1px solid rgb(126, 106, 106);
+     align-items: center;
+}
+
+.one{
+   
+   color: antiquewhite;
+   border-radius: 10px;
+  transition: 1s;
+ 
+   
+}
+.one:hover{
+   transform: scale(1.2);
+   background-color: rgb(25, 27, 29);
+   border-radius: 20px;
+}
+
+
+
+#body{
+   background-color: rgb(15, 12, 12);
+}  
+
+#foo{
+   display: flex;
+}
+#oyy{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+}
+.chu{
+   transition: 1s;
+}
+.chu:hover{
+   
+   transform: scale(1.2);
+   background-color: aliceblue;
+   border-radius: 20px;
+} 
+#chi{
+   transition: 1s;
+}
+#chi:hover{
+   
+   transform: scale(1.2);
+   background-color: aliceblue;
+   border-radius: 20px;
+} 
+.chuu{
+   transition: 1s;
+}
+.chuu:hover{
+   
+   transform: scale(1.2);
+   background-color: aliceblue;
+   border-radius: 20px;
+} 
+
+#dum{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#pum{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.poo{
+   color: aliceblue;
+}
+
+#gum{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.ra{
+   color: aliceblue;
+}
+
+.chu{
+   border-radius: 15px;
+}
+#chi{
+   border-radius: 15px;
+}
+#maxy{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color:whitesmoke ;
+}
+#cc{
+   color: white;
+}
+.bb{
+   color: rgb(160, 165, 170);
+}

@@ -1,0 +1,26 @@
+#nan{
+    height: 600px;
+    background: rgb(27, 147, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#man{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    color: black;
+    box-shadow: 1px 1px 20px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    letter-spacing: 5px;
+    animation: rotate;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    50%{transform: rotate(360deg);}
+}

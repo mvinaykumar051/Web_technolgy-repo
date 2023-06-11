@@ -1,0 +1,9 @@
+/* #one,.two,#three{
+    color: rgb(255, 0, 191);
+}
+*{
+    background-color: yellowgreen;
+} */
+#one{
+    background-color: blue;
+}

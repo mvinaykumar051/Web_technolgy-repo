@@ -1,0 +1,10 @@
+div{
+    background-image: url("./photos/OIP\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}

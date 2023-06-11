@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="border: 4px solid blue;">
+        <legend contenteditable="">Registration</legend>
+        <form action="" method="get">
+            <table>
+                <tr>
+                    <td><label for="first">FIRST NAME :</label></td>
+                    <td><input type="text" name="first" id="first"></td>
+                </tr>
+                <tr>
+                    <td><label for="last">LAST NAME :</label></td>
+                    <td><input type="text" name="last" id="last"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">DOB :</label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">GENDER :</label></td>
+                    <td>Male<input type="radio" name="gender" id="gender">Female<input type="radio" name="gender" id="gender"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">ADDRESS :</label></td>
+                    <td><textarea name="add" id="add" cols="20" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="quali"> QUALIFICATION :</label></td>
+                    <td><select name="quali" id="quali">
+                        <option value="select">SELECT</option>
+                        <option value="mech">MECHANICAL</option>
+                        <option value="civil">CIVIL</option>
+                        <option value="bca">BCA</option>
+                        <option value="bsc">BSC</option>
+                        <option value="cs">CS</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="email">EMAIL :</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SUBMIT"><input type="button" value="CANCEL"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

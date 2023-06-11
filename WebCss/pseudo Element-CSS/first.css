@@ -1,0 +1,35 @@
+p::first-line{
+    color: violet;
+    font-size: 50px;
+}
+p::first-letter{
+    color: red;
+    font-size: 75px;
+}
+
+
+h1{
+    font-size: 70px;
+    color: chartreuse;
+    text-align: center;
+}
+h1::before{
+    content: url("./photos/OIP\ \(1\).jpg");
+}
+h1::after{
+    content: url("./photos/OIP\ \(7\).jpg");
+}
+
+
+li{
+    font-size: 50px;
+}
+li::marker{
+    color: aqua;
+}
+
+
+h2::selection{
+background-color: aqua;
+color: red;
+}

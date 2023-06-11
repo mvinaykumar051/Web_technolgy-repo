@@ -1,0 +1,7 @@
+@import url(./web1.css);
+@import url(./web2.css);
+@import url(./web3.css);
+h1{
+    color: yellow;
+    background-color: black;
+}

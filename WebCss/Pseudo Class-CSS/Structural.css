@@ -1,0 +1,9 @@
+p:first-child{
+   background-color: aqua;
+}
+p:last-child{
+    background-color: red;
+}
+p:nth-child(2){
+    background-color: purple;
+}

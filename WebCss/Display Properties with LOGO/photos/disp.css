@@ -1,0 +1,14 @@
+#man{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+.nan{
+    color: yellow;
+}
+
+#one{
+    background-image: linear-gradient(red,blue,black);
+}

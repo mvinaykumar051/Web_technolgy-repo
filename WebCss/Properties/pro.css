@@ -1,0 +1,30 @@
+/* TEXT n FONT Properties */
+
+p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: orange;
+    text-shadow: 5px 10px 15px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+    font-style: oblique;
+}
+
+
+/* BORDER Properties */
+
+h1{
+    color: crimson;
+    background-color: aqua;
+    text-align: center;
+    text-shadow: 10px 20px 3px;
+    border:4px solid red;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}

@@ -1,0 +1,27 @@
+ #nan{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }   
+    
+#man{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-duration: 3s;
+transition-timing-function: ease-in-out;
+}
+#man:hover{
+     transform: rotate(170deg);
+    transition-delay: 2s; 
+    /* transform: scaleX(50); */
+    /* transform: skewY(160deg); */
+    /* transform: translateY(100px); */
+}

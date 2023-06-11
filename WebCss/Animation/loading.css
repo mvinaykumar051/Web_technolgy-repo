@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: rgb(0, 98, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    box-shadow: 20px 20px 20px yellow;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div::before{
+    content:"";
+    background-image: conic-gradient(red,transparent 120deg);
+    height: 250%;
+    width: 250%;
+    position: absolute;
+    animation: rotate 1s linear infinite;
+}
+
+div::after{
+    content: "HELLO....";
+    height: 190px;
+    width: 190px;
+    background:rgb(9, 255, 0);
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    color:rgb(255, 38, 0);
+    font-size: large;
+    font-style: oblique;
+}
+
+@keyframes rotate{
+   100%{transform: rotate(360deg)};
+}
